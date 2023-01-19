@@ -1,4 +1,4 @@
-require_dependency 'redmine_improved_searchbox_hook_listener'
+require File.join(File.dirname(__FILE__), 'lib/redmine_improved_searchbox_hook_listener')
 
 Redmine::Plugin.register :redmine_improved_searchbox do
   name 'Project Search Box Plugin'
